@@ -18,7 +18,7 @@ function openDirectory(path) {
 function isMac() {
     return (fl.version.search(/mac/i) > -1);
 }
-
+/Volumes/NOHARA_HDD/Dropbox (ICS INC)/settings/jsfl_commands/レイヤーを追加してstopを追加する.jsfl
 function main() {
 	var isXFL = dom.pathURI.lastIndexOf(".xfl") >= 0; //xflかどうか確認
 	var a = dom.pathURI.lastIndexOf("/");
